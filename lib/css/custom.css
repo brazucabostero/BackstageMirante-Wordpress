@@ -1,0 +1,1064 @@
+  .ings-buy-flow-left{
+    display: flex;
+    gap: 10px;
+  }
+  @media (max-width: 768px){
+    .ings-buy-flow-left{
+      align-items: flex-end;
+    }
+  }
+  .ings-buy-flow-left img{
+    height: 57px;
+    width: auto;
+    border-radius: 5px;  
+  }
+  .ings-buy-flow-left small{
+    font-size: 8px;
+  }
+  .ings-buy-flow-left p.title{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 0;
+    color: black !important;
+  }
+  .ings-buy-flow-left  .title-flex{
+    display: flex;
+    flex-direction: column;
+  }
+  .ings-modal-height-100{
+    overflow-y: auto;
+  }
+
+  .ings-modal-full-height {
+    height: 100%;
+  }
+
+
+  .ings-modal-header-buttons{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+  }
+  @media (max-width: 768px){
+    .ings-modal-header-buttons{
+      align-items: flex-start;
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+  .ings-modal-header-buttons svg{
+    width: 24px;
+    margin-right: 10px;
+  }
+  .ings-modal-header-buttons .fechar{
+    border: 0;
+    color: black !important;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+  }
+  .ings-modal-header-buttons .fechar:hover{
+    background-color: transparent;
+  }
+  .ings-modal-header-buttons .ajuda{
+    font-size: 16px;
+    color: black !important;
+    font-weight: 500;
+  }
+  main#ings-form{
+    color: white;
+  }
+  .m-v-space-3{
+    margin: 3em 0;
+  }
+  .ings-payment-title-step{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 2em;
+    text-transform: uppercase;
+  }
+  .ings-payment-card-user{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    column-gap: 15px;
+    margin-bottom: 3em;
+  }
+  .ings-payment-card-user .avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    grid-row: span 2;
+    margin-right: 30px;
+  }
+  .ings-payment-card-user .avatar img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .ings-payment-card-user .name{
+    font-weight: 300;
+    font-size: 1.1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .ings-payment-card-user .mail{
+    font-weight: 300;
+    font-size: .9em;
+  }
+  .ings-payment-card-user .link{
+    font-size: .9em;
+    grid-column: span 2;
+    text-transform: uppercase;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #651FFF;
+  }
+
+  /* ///// */
+
+  .ings-payment-form .form{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    margin-top: 3em;
+    align-items: end;
+  }
+  @media (max-width: 768px){
+    .ings-payment-form .form{
+      grid-template-columns: 1fr;
+    }
+  }
+  .ings-payment-form .title-form{
+    font-size: 2em;
+    line-height: 1;
+    margin: 0;
+  }
+  .ings-payment-form .text-form{
+    color: #626262;
+    margin: 5px 0 0 0;
+  }
+  .ings-payment-form label{
+    font-size: .9em;
+    font-weight: 200;
+  }
+  .ings-payment-form .cep{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ings-payment-form .busca-cep{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: .7em;
+    color: #305feb;
+  }
+  .ings-payment-form .form input{
+    background-color: #212121;
+    border: 1px solid #626262;
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 5px;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10px;
+  }
+  .ings-payment-form button.btn-save{
+    background-color: #305feb;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border: 0;
+    padding: 20px 0;
+  }
+  .ings-payment-form .form .logradouro{
+    grid-column: span 2;
+  }
+  @media (max-width: 768px){
+    .ings-payment-form .form .logradouro{
+      grid-column: span 1;
+    } 
+  }
+  /* ///// */
+
+  .ings-resume{
+    margin-top: 2em;
+  }
+  .ings-resume hr.divisor{
+    border: 0;
+    border-top: 1px solid #626262;
+    grid-column: span 3;
+    margin: .7em 0;
+  }
+  .ings-resume b{
+
+  }
+  .ings-resume h3{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  .ings-resume .change-ingress{
+    color: #651FFF;
+    text-transform: uppercase;
+    font-size: .8em;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 5px;
+  }
+  .ings-resume .resume-box{
+    border: 1px solid #626262;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+  .ings-resume .header-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 1em;
+  }
+  @media (max-width: 575px){
+    .ings-resume .header-box{
+      font-size: .7em;
+    }
+  }
+  .ings-resume .loop-ingress-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  @media (max-width: 575px){
+    .ings-resume .loop-ingress-box{
+      font-size: .7em;
+    }
+  }
+  .ings-resume .loop-ingress-box .date{
+    grid-column: span 3;
+  }
+  .ings-resume .loop-ingress-box .date .tag{
+    background-color: #305feb;
+    padding: 3px 5px; 
+  }
+  .ings-resume .totals-box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    text-transform: uppercase;
+  }
+  @media (max-width: 575px){
+    .ings-resume .totals-box{
+      font-size: .7em;
+    }
+  }
+  .ings-resume .totals-box .total-payment{
+    grid-column: span 2;
+  }
+  .payment-start{
+    display: grid;
+    grid-template-columns: 60px 1fr 250px;
+    margin-top: 2em;
+    align-items: center;
+  }
+  @media (max-width: 575px){
+    .payment-start{
+      grid-template-columns: 1fr;
+      justify-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+  }
+  .payment-start .btn-payment{
+    border-radius: 40px;
+    font-size: 1em;
+    background: linear-gradient(180deg, #F36F00, #F2295B);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    width: 250px;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .payment-start .text-1{
+    font-size: .6em;
+    display: block;
+  }
+  .payment-start .text-2{
+    font-size: 1em;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+  }
+  .step-style{
+  margin: 0.9em 0 2em 0;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  display: flex;
+  font-family: 'Encode Sans';
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .step-style{
+      display: none;
+    }
+  }
+
+  .bradcrumb-space{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .step-style .arrows{
+    width: 10px;
+  }
+  .ings-qtd-flex{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 8px;
+  }
+  .ings-minus-bt, .ings-plus-bt{
+    background-color: transparent !important;
+    border-radius: 24px;
+    border: 2px solid #fff;
+    color: black !important;
+    border: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    width: 24px;
+    height: 24px;
+  }
+  .ings-minus-bt span, .ings-plus-bt span{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+  } 
+  .ings-qtd-input{
+    background-color: white;
+    border: 0 !important;
+    padding: 0 !important;
+    text-align: center;
+    width: 20px !important;
+    color: black !important;
+    font-size: 20px;
+  }
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  .ings-codigo{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: right;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+  }
+  .ings-codigo a{
+    color: #ffffff60;
+  }
+  .ings-codigo a:hover{
+    color: #ffffff60;
+  }
+  .ings-card-event-data{
+    color: black !important;
+    font-weight: 500;
+    font-size: 12px;
+  }
+
+  button.colorAccordion.accordion-button {
+    background-color: #f8f8f8 !important;
+}
+
+  .accordion-header button{
+    color: #fff !important;
+  }
+  .accordion-button::after{
+    fill: red !important;
+    color: red;
+  }
+  .ings-modal-compras .accordion-body{
+    padding: 0;
+  }
+  .ings-modal-compras .accordion-body .row{
+    border-bottom:1px solid #7a7a7a;
+    min-height: 100px;
+    margin: 0;
+    display: flex;
+    align-items: center;
+  }
+  .ings-modal-compras .accordion-body .row:last-child{
+    border-bottom: 0;
+  }
+  .ings-modal-compras .accordion-body .row p{
+    margin: 0;
+  }
+
+  .ings-avancar{
+    width: 240px;
+    height: 48px;
+    font-size: 16px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F36F00, #F2295B);
+    color: #fff;
+    border-radius: 36px;
+    border: 0;
+    text-transform: uppercase;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .ings-avancar{
+      width: 160px;
+    }
+  }
+
+
+  .ings-payment-type .credit-flags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 15px;
+    list-style: none;
+    padding: 15px 0 0 0;
+    margin: 0;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .ings-payment-type .credit-flags{
+      flex-wrap: wrap;
+    }
+  }
+
+  .ings-payment-type h3{
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    padding: 0;
+    margin-bottom: 25px;
+  }
+  .ings-payment-type-tabs{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex;
+    flex-direction: row;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .ings-payment-type-tabs{
+      width: auto !important;
+      justify-content: center;
+    }
+  }
+  .ings-payment-type-tabs li{
+    width: 200px;
+    height: 59px;
+    border-right: 1px solid #7A7A7A;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  @media (min-width: 320px) and (max-width: 768px) {
+    .ings-payment-type-tabs li{
+      width: 100% !important;
+    }
+  }
+  .ings-payment-type-tabs li:last-child{
+    border-right: 0;
+  }
+  .ings-payment-type-tabs li button{
+    border: 0;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 100%; 
+  }
+  .ings-payment-type-tabs li button:hover{
+    background-color: #163592;
+  }
+  .ings-payment-type-tabs li .active{
+    background-color: #163592;
+  }
+  .ings-payment-type .form-card-credit{
+    margin-top: 40px;
+  }
+  .ings-payment-type .form-card-credit ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    width: 940px;
+  }
+  @media (min-width: 320px) and (max-width: 768px) { 
+    .ings-payment-type .form-card-credit ul{
+      grid-template-columns: 1fr;
+      width: 100%;
+    }
+  }
+  .ings-payment-type .form-card-credit ul li{
+    height: 48px;
+    margin-bottom: 20px;
+  }
+  .ings-payment-type .form-card-credit ul li label{
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .ings-payment-type .form-card-credit input{
+    padding-left: 10px;
+    height: 48px;
+    width: 100%;
+  }
+  .ings-payment-type .form-card-credit select{
+    border-right: 7px solid transparent;
+    width: 100%;
+    height: 49px;
+  }
+  .ings-payment-type .form-card-credit .text-danger{
+    font-size: 10px;
+  }
+  .ings-payment-type .btn-salvar {
+    width: 300px;
+    height: 59px;
+    background: #163592;
+color: black !important;
+    border-radius: 36px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  #card-credit{
+    background: #f25127;
+  }
+
+  #card-credit:active,
+  #card-credit:hover,
+  #pix:active,
+  #pix:hover {
+      background: black;
+      color: white;
+  }
+
+  #pix{
+    background: #163592;
+    color: white;
+  }
+ 
+.text-white-70{
+  color: black !important;
+}
+  .form-card-credit input,
+  .form-card-credit select  {
+    background-color: aliceblue; 
+    color: black;
+}
+
+.costumer-cpf{
+  background-color: aliceblue; 
+  color: black;
+}
+
+.form-card-credit label {
+  color: black !important
+}
+
+.form-pix input,
+.form-pix label {
+  background-color: aliceblue; 
+  color: black;
+}
+
+
+
+  @media (min-width: 320px) and (max-width: 768px) { 
+    .ings-payment-type .btn-salvar {
+      width: 100%;
+    }
+  }
+  .one-click-buy{
+    max-width: 965px;
+    height:119px;
+    padding: 0 24px;
+    border-radius: 8px;
+    border: 1px solid #7A7A7A;
+    background: radial-gradient(100% 6575.98% at 0% 14.71%, #0B0B0F 0%, #292929 23.96%, #0E0E12 55.73%, #262626 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */,
+    linear-gradient(0deg, #7A7A7A, #7A7A7A);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0 10px 0;
+    gap: 10px;
+  }
+  .one-click-buy h4{
+    font-family: Arial;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+    line-height: 27.6px;
+  }
+  .one-click-buy span {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;;
+  }
+  /* Endereço de cobrança */
+  .ings-payment-adress{
+    margin-top: 100px;
+  }
+  .ings-payment-adress .current-adress{
+    border: 1px solid #626262;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  .ings-modal-transfer-title {
+    font-weight: 700;
+    font-size: 1.625em;
+  }
+
+  .ings-modal-transfer-subtitle {
+    font-weight: 600;
+    font-size: 1.25em;
+  }
+
+  .ings-modal-transfer-group-name {
+    font-weight: 600;
+    font-size: 1.625em;
+  }
+
+  .ings-modal-transfer-ticket-name {
+    font-weight: 500;
+    font-size: 1.125em;
+  }
+
+
+  .ings-modal-transfer-ticket-date {
+    padding: 0.25em;
+    font-size: 1.125em;
+    background-color: #163592;
+  }
+
+  .ings-modal-transfer-my-button {
+    color: #163592!important;
+    font-size: 1em!important;
+    font-weight: 700!important;
+    width: auto;
+    height: 3.125em;
+  }
+
+  .ings-modal-transfer-other-button {
+    background-color: #163592!important;
+    font-size: 1em!important;
+    font-weight: 700!important;
+    color: white!important;
+    width: auto;
+    height: 3.125em;
+  }
+
+  .ings-modal-transfer-remove-button {
+    width: 12.5rem;
+    height: auto;
+  }
+
+  .ings-modal-transfer-continue-button {
+    margin-top: 3rem;
+    width: 300px;
+    height: 59px;
+    background: linear-gradient(180deg, #F36F00, #F2295B) !important;
+    font-size: 16px !important;
+    font-weight: 700!important;
+    color: white!important;
+    text-decoration: none;
+  }
+  h3.ticket-group{
+    font-size: 24px;
+    font-weight: 600;
+    color: black !important;
+    margin: 0;
+    white-space:initial;
+  }
+  .ings-ticket-select{
+    color: black !important;
+  }
+  .ings-ticket-select .ticket-tyme-name{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 20px;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .ings-ticket-select .ticket-price{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+  }
+  .ings-ticket-select .ticket-tax{
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  #ings-change-customer-address {
+    color: #651FFF;
+    text-transform: uppercase;
+    font-size: .8em;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0;
+  }
+  .step-style .step-active{
+    color: #651FFF;
+  }
+  .bandeja-left .qtd-ingressos{
+    font-size: 16px;
+    font-weight: 600;
+  }
+  .bandeja-left .total{
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .ings-transfer-text-content{
+    text-align: initial;
+  }
+  @media (min-width: 320px) and (max-width: 768px) { 
+    .ings-transfer-text-content{
+      text-align: center;
+    } 
+  }
+  h3.ings-transfer{
+    font-family: 'Encode Sans';
+    font-size: 26px;
+    font-weight: 700;
+  }
+  h4.ings-transfer{
+    font-family: 'Encode Sans';
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 45px;
+  }
+  .ings-session-name{
+    font-size: 26px;
+    font-weight: 600;
+    color: black !important;
+  }
+  .ings-transfer-type{
+    font-size: 18px;
+    font-weight: 500;
+color: black !important;
+    margin: 0 0 10px 0;
+  }
+  .ings-transfer-date{
+    font-size: 18px;
+    font-weight: 500;
+color: white !important;
+  }
+  @media (min-width: 320px) and (max-width: 768px) { 
+    .ings-transfer-date{
+      margin-bottom: 10px;
+    }
+  }
+
+  .tag{
+    background-color: #163592;
+    padding: 5px 8px;
+    margin-right: 5px;
+    color: white;
+  }
+
+  .data-hora{
+    padding: 5px 8px;
+    margin-right: 5px;
+    color: black;
+  }
+
+
+  .ings-transfer-date {
+    padding: 5px 8px;
+    margin-right: 5px;
+    color: black;
+  }
+  h3.ings-codepromo-title{
+    font-size: 26px;
+    font-weight: 700;
+color: black !important;
+  }
+
+  .ings-codepromo-input-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .ings-codepromo-input-box{
+    width: 100%;
+    max-width: 600px;
+  }
+  .ings-codepromo-input{
+    border-color: #7a7a7a7a;
+    background-color: #292929;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+  }
+  .ings-codepromo-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 20px;
+  }
+  .ings-codepromo-cancel{
+    width: 172px;
+    height: 49px;
+    background-color: #ffffff;
+    color: #163592;
+    font-weight: 700;text-transform: uppercase;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+  }
+  .ings-codepromo-apply{
+    width: 172px;
+    height: 49px;
+    background: linear-gradient(180deg, #F36F00, #F2295B);
+color: black !important;
+    font-weight: 700;text-transform: uppercase;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+  }
+  .ings-transfer-action{
+    display: flex;
+    justify-content: flex-end;
+  }
+  @media (min-width: 320px) and (max-width: 768px) { 
+    .ings-transfer-action{
+      justify-content: center;
+    }
+  }
+  .ings-meu-ingresso-buttom{
+    background-color: #F25127;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    width: 300px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 30px;
+    transition: all .3s;
+  }
+  .ings-meu-ingresso-buttom:hover{
+    background-color: #000;
+color: white !important;
+  }
+  .ings-meu-transfer-buttom{
+    background-color: #163592;
+color: white !important;
+    font-size: 16px;
+    font-weight: 700;
+    width: 300px;
+    height: 59px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 30px;
+    transition: all .3s;
+  }
+  .ings-meu-transfer-buttom:hover{
+    background-color: black;
+    color: white;
+  }
+  .ings-transfer-mail{
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+  }
+  .ings-transfer-action-mail{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .ings-meu-transfer-buttom-remove-container{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ings-meu-transfer-buttom-remove{
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 30px;
+    transition: all .3s;
+  }
+  .ings-user-transfer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+  .ings-search-user-input{
+    width: 100%;
+    font-size: 16px;
+    max-width: 500px;
+    height: 48px;
+    padding-left: 12px;
+    border-radius: 5px;
+    border: 1px solid #7a7a7a;
+  }
+  .ings-search-user-input::placeholder{
+    letter-spacing: 0;
+  }
+  .ings-search-user-buttom{
+    background: linear-gradient(180deg, #F36F00, #F2295B);
+color: black !important;
+    font-size: 16px;
+    font-weight: 700;
+    width: 200px;
+    height: 49px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    border-radius: 30px;
+    transition: all .3s;
+  }
+  bandeija-fixed{
+    background-color: #000;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .ings-qtd-section {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .ings-qtd-max-label {
+    text-align: center;
+  }
+
+  .ings-tickets-sections {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .custom-header{
+  }
+
+  .meus-dados-picture-container {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+  }
+
+  .meus-dados-picture-preview {
+    position: relative;
+    width: 150px;
+    height: 150px !important;
+    object-fit: cover;
+  }
+
+  .meus-dados-picture-preview-camera-icon {
+    opacity: 0.3;
+    position: absolute; top: 55px; left: 55px;
+  }
+
+  .meus-dados-picture-preview-camera-icon:hover {
+    opacity: 1;
+    
+  }
+  button.orange-save, button.orange-continue{
+    background-color: linear-gradient(180deg, #F36F00, #F2295B);
+    color: #fff;
+  }
+  button.orange-save:hover, button.orange-continue:hover{
+    background-color: #fff;
+    color: #163592;
+  }
+  .inputpass-change{
+    position: relative;
+  }
+  .inputpass-change i.eye {
+    position: absolute;
+    right: 18px;
+    top: 34px;
+  }
+  @media (min-width: 320px) and (max-width: 768px) { 
+    .ings-change-buttons button{
+      font-size: 10px;
+      margin: 0 2px !important;
+    }
+    .modal-changepass{
+      max-width: 320px;
+    }
+  }

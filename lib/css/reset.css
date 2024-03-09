@@ -1,0 +1,50 @@
+
+/* Resets */
+.container-detalhes{
+    color: #000;
+}
+.modal-content{
+    color: #130E00 !important;
+    background-color: #FFFFFF !important;
+}
+
+.card-header{
+    background-color: #F8F8F8 !important;
+}
+.card{
+    background-color: white !important;
+}
+.accordion-body{
+    background-color: white !important;
+}
+.text-primary{
+  --bs-text-opacity: 1;
+  color: #651FFF !important; 
+}
+.border-top-0{
+    border-top: 0;
+}
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+.tab-content{
+    padding: 0 !important;
+    margin-top: 15px !important;
+}
+.ings-payment-type .form-check-input{
+    width: 46px !important;
+    height: 30px !important;
+}
+.ings-payment-type .form-check-input:checked{
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+.authing-iframe{
+    position: relative !important;
+}
+
+
+.costumer-cpf{
+    background-color: aliceblue; 
+    color: black;
+  }
